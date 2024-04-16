@@ -1,6 +1,7 @@
 # Networking
 
 [1) Understanding Networking Layers](https://github.com/fabio-miguel/tcp-nodejs-networking)
+[2) Implementing TCP - **this repo**](https://github.com/fabio-miguel/chat-nodejs-app-networking)
 
 ## About - Chat App - Node.js
 
@@ -69,7 +70,7 @@ The problem with this is that every time we have a new client we have a new sock
 
 ### Solution
 
-The solution provided in the code of this repository was to keep track of all the client connections that you have in your application by creating an array. When we get a new client connection / socket, we simply write their data to all the other sockets, using the map method to iterate the over the stored sockets in an array, so they receive it and then push the new socket into the array. Remember, socket is equivalent as saying "client connection."
+The solution provided in the code of this repository was to keep track of all the client connections that you have in your application by creating an array. When we get a new client connection / socket, we simply write their data to all the other sockets, using the map method to iterate over the stored sockets in an array, so they receive it and then push the new socket into the array. Remember, socket is equivalent as saying "client connection."
 
 ### Reflective Issues / Improvements
 
@@ -84,7 +85,7 @@ User Interface (UI) issues were not addressed. For example, when entering a mess
 Other identified issues / improvements include,the inability to identify users in the chat and notifying the chatroom when a user leaves or joins. I'm sure there are many possibilities for additional features and improvemnts. Again, the goal was to deliver an MVP for a TCP application and this is a nice foundation to build upon.
 
 <details>
-<summary>A Reference to Understanding the Netowrk Layers</summary>
+<summary>A Reference to Understanding the Network Layers</summary>
 
 ### Further Understanding the Application Layer
 
