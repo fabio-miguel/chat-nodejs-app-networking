@@ -1,6 +1,7 @@
 # Networking
 
 [1) Understanding Networking Layers](https://github.com/fabio-miguel/tcp-nodejs-networking)
+
 [2) Implementing TCP - **this repo**](https://github.com/fabio-miguel/chat-nodejs-app-networking)
 
 ## About - Chat App - Node.js
