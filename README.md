@@ -273,6 +273,6 @@ Again, this is a simplistic and manual approach to deploying a Node.js applicati
 
 **This topic follows onto understanding IPv4 addresses which can be found in this repo:**
 
-[3) Implementing DNS - ](https://github.com/fabio-miguel/dns-nodejs-networking)
+[3) Implementing DNS](https://github.com/fabio-miguel/dns-nodejs-networking)
 
 </details>
