@@ -4,6 +4,8 @@
 
 [2) Implementing TCP - **this repo**](https://github.com/fabio-miguel/chat-nodejs-app-networking)
 
+[3) Implementing DNS](https://github.com/fabio-miguel/dns-nodejs-networking)
+
 ## About - Chat App - Node.js
 
 A simple TCP Chat application that uses the Command Line Interface to interact with users. The goal of this project was to practice using TCP in a practical and fun way for educational purposes. It was intended as a means to see how Node's `http` module builds on top of the `net` module and TCP. This is **NOT production ready** and if used as is, poses security issues for users. This uses a standard TCP connection, which means packets are unencrypted. Refer to the Issues / Improvements section below.
